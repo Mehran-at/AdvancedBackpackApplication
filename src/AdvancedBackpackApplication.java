@@ -1,4 +1,16 @@
-import com.sun.beans.editors.ShortEditor;
+// Hansel is preparing himself for a trip and wants to make sure he has packed at least one of everything.
+// . Create the AdvancedBackpackApplication class and write the following instructions in its main method:
+// . Create the Item class that has one name.
+// . Create an empty backpack set of Item and display it.
+// . Create three different Item objects.
+// . Add them to the backpack set and display it. To display the Item class create the toString method.
+// . Create a new Item with the same name as a previous one and use it to ask if is contained in the set and display the answer. To compare an Item automatically you need to create the equals method in the Item class. Specify that two Items are the same if their name is the same.
+// . Use the last Item you created to remove the original one from the set. To remove an Item automatically you need to create the equals method in the Item class.
+// . Ask if the element you just removed is not contained in the set and display the answer.
+// . Add one of the existing items twice and display the set.
+// . Display its size.
+//    Hints:
+//   >Use Intellij shortcuts to create the toString and equals methods.
 
 import java.util.*;
 

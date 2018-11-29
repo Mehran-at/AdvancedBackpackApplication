@@ -28,8 +28,10 @@ public class AdvancedBackpackApplication {
         if (!item.contains(itemS)) {
             System.out.println(item);
         }
+        else {
         item.add(itemM);
         System.out.println(item);
         System.out.println(item.size());
+        }
     }
 }
